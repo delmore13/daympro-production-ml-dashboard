@@ -18,25 +18,15 @@ This project is designed as a portfolio-ready AI/ML software engineering system.
 
 
 
-!\[FastAPI Docs](screenshots/fastapi\_docs.png)
+!\[FastAPI Docs](./screenshots/fastapi\_docs.png)
 
 
 
-\### Streamlit Monitoring Dashboard
+!\[Streamlit Dashboard](./screenshots/streamlit\_dashboard.png)
 
 
 
-!\[Streamlit Dashboard](screenshots/streamlit\_dashboard.png)
-
-
-
-\### Passing Test Suite
-
-
-
-!\[Pytest Passed](screenshots/pytest\_passed.png)
-
-
+!\[Pytest Passed](./screenshots/pytest\_passed.png)
 
 
 
