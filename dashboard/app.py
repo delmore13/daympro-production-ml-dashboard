@@ -39,7 +39,7 @@ st.json(payload)
 
 if st.button("Generate Signal"):
     try:
-        response = requests.post("http://127.0.0.1:8000/predict", json=payload)
+        response = requests.post("http://127.0.0.1:8000/signal", json=payload)
         response.raise_for_status()
         result = response.json()
 
