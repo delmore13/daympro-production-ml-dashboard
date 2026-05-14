@@ -10,3 +10,4 @@ plotly
 pytest
 python-dotenv
 requests
+httpx
