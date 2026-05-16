@@ -1,108 +1,109 @@
-\# DAYMPRO Production ML Dashboard
-
-
+# DAYMPRO Production ML Dashboard
 
 DAYMPRO is a production-style machine learning dashboard for real-time trading signal monitoring, risk analysis, and mock broker-safe decision tracking.
 
+This project is designed as a portfolio-ready AI/ML software engineering system. It demonstrates how signal logic, risk controls, API development, automated testing, and dashboard monitoring can be combined into a clean production workflow.
 
+---
 
-This project is designed as a portfolio-ready AI/ML software engineering system. It demonstrates how machine learning-style signal logic, risk controls, API development, automated testing, and dashboard monitoring can be combined into a clean production workflow.
+## Project Screenshots
 
+### FastAPI Documentation
 
+![FastAPI Docs](./screenshots/fastapi_docs.png)
 
-\## Project Screenshots
+### Streamlit Dashboard
 
+![Streamlit Dashboard](./screenshots/streamlit_dashboard.png)
 
+### Passing Test Suite
 
-\### FastAPI Documentation
+![Pytest Passed](./screenshots/pytest_passed.png)
 
+---
 
+## Features
 
-!\[FastAPI Docs](./screenshots/fastapi\_docs.png)
+- FastAPI backend for signal and risk endpoints
+- Streamlit dashboard for visual monitoring
+- Signal engine for market decision logic
+- Risk engine for trade safety checks
+- Mock broker-safe architecture
+- Automated test suite with Pytest
+- Modular Python project structure
+- Production-style separation of API, engine logic, dashboard, and tests
 
+---
 
+## Tech Stack
 
-!\[Streamlit Dashboard](./screenshots/streamlit\_dashboard.png)
+- Python
+- FastAPI
+- Streamlit
+- Pytest
+- Pydantic
+- Uvicorn
+- Git / GitHub
 
+---
 
-
-!\[Pytest Passed](./screenshots/pytest\_passed.png)
-
-
-
-\## Features
-
-
-
-\- FastAPI backend for signal and risk endpoints
-
-\- Streamlit dashboard for visual monitoring
-
-\- Signal engine for market decision logic
-
-\- Risk engine for trade safety checks
-
-\- Mock broker-safe architecture
-
-\- Automated test suite with Pytest
-
-\- Modular Python project structure
-
-\- Production-style separation of API, engine logic, dashboard, and tests
-
-
-
-\## Tech Stack
-
-
-
-\- Python
-
-\- FastAPI
-
-\- Streamlit
-
-\- Pytest
-
-\- Pydantic
-
-\- Uvicorn
-
-\- Git / GitHub
-
-
-
-\## Project Structure
-
-
-
-```text
+## Project Structure
 
 daympro-production-ml-dashboard/
+- app/
+  - main.py
+  - signal_engine.py
+  - risk_engine.py
+- dashboard/
+  - app.py
+- screenshots/
+  - fastapi_docs.png
+  - pytest_passed.png
+  - streamlit_dashboard.png
+- tests/
+  - test_api.py
+  - test_signal_engine.py
+  - test_risk_engine.py
+- requirements.txt
+- README.md
 
-├── app/
+---
 
-│   ├── main.py
+## How to Run
 
-│   ├── signal\_engine.py
+Install dependencies:
 
-│   └── risk\_engine.py
+pip install -r requirements.txt
 
-├── dashboard/
+Run the FastAPI backend:
 
-├── data/
+python -m uvicorn app.main:app --reload
 
-├── logs/
+Run the Streamlit dashboard:
 
-├── tests/
+streamlit run dashboard/app.py
 
-│   ├── test\_api.py
+---
 
-│   ├── test\_signal\_engine.py
+## Testing
 
-│   └── test\_risk\_engine.py
+Run the test suite:
 
-├── requirements.txt
+python -m pytest
 
-└── README.md
+Current result:
 
+7 passed
+
+---
+
+## Portfolio Purpose
+
+DAYMPRO was built as a production-style AI/ML software engineering portfolio project. It is not presented as a profit-guaranteeing trading system. Instead, it demonstrates real-time decision logic, risk monitoring, API development, dashboard design, automated testing, and clean project structure.
+
+---
+
+## Author
+
+**Darrick Elmore**  
+AI/ML Software Engineering Portfolio Project
